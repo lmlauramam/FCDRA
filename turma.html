@@ -3,79 +3,69 @@
   <head>
     <meta charset="utf-8">
     <title>FCDRA</title>
+    <!--Import Google Icon Font-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!--Import materialize.css-->
+     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+     <!--Let browser know website is optimized for mobile-->
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
     <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
 
     <h3> 5C - Matemática</h3>
 <div class="row">
-
-<div class="col s6">
-    <div class = "Turma">
-      <table>
-        <tr>
-          <th>
-          Alunos
-          </th>
-          <th>
-            <a  class = "ListaAlunos" href="aprendizagens.html"> Aprendizagens adquiridas </a>
-          </th>
-        </tr>
-        <tr>
-          <td>
-            Ana Barros
-          </td>
-          <td>
-            70%
-          </td>
-        </tr>
-        <tr>
-          <td>
-            Hugo Martins
-          </td>
-          <td>
-            60%
-          </td>
-        </tr>
-      </table>
-
+  <div class="col s2">
+      <div class="card-panel teal">
+        <form>
+          <h4> CIA <br/></h4> </br/>
+          <div class="row">
+            <div class="col s5">
+              <input class="buttonEditar" type="submit" value="Ver">
+            </div>
+            <div class="col s5">
+              <input class="buttonEditar" type="submit" value="Editar">
+            </div>
+          </div>
+        </form>
+      </div> <br/></br/>
+      <div class="card-panel teal">
+        <form>
+          <h4> PIP<br/></h4>  </br/>
+          <div class="row">
+            <div class="col s5">
+              <input class="buttonEditar" type="submit" value="Ver">
+            </div>
+            <div class="col s5">
+              <input class="buttonEditar" type="submit" value="Editar">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="col s8">
+        <table>
+          <tr>
+            <th>Alunos</th>
+            <th><a  class = "ListaAlunos" href="aprendizagens.html"> Aprendizagens adquiridas </a></th>
+          </tr>
+          <tr>
+            <td>Ana Barros</td>
+            <td>70%</td>
+          </tr>
+          <tr>
+            <td>  Hugo Martins</td>
+            <td> 60%</td>
+          </tr>
+        </table>
     </div>
 </div>
-<div class="col s6">
-    <div class="sideMenu">
-      <h4> CIA <br/></h4>
 
 
-     </br/>
-       <input class="buttonCIA" type="submit" value="Editar">
-
-      </form>
-
-    </div>
-
-    <br/>
-
-  </br/>
-
-    <div class="sideMenu">
-      <h4> PIP<br/></h4>
-
-
-     </br/>
-       <input class="buttonCIA" type="submit" value="Editar">
-
-      </form>
-
-    </div>
-  </div>
-
-</div>
-
-
-    <!--  Scripts-->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="js/materialize.js"></script>
-    <script src="js/init.js"></script>
+<!--JavaScript at end of body for optimized loading-->
+<script type="text/javascript" src="js/materialize.min.js"></script>
 
   </body>
-</html>
+  </html>

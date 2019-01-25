@@ -1,5 +1,5 @@
 body{
-  background-color: #BAD0E5;
+  background-color: #E6FFFF;
   color:	#800000; /* 25% red*/
   font-family:sans-serif;
 
@@ -38,6 +38,7 @@ h3{
 
 h4{
   color:white;
+  text-align: center;
   font-size: 2em;
 }
 p{
@@ -110,29 +111,15 @@ a:active {
   margin: 4px 2px;
   cursor: pointer;
 }
-.buttonCIA {
+.buttonEditar {
   background-color: #004d00; /* Dark Green*/
   border-radius: 0.5em;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 10px 10px;
   text-align: center;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 0.5 em;
   margin: 4px 2px;
   cursor: pointer;
-}
-
-.Turma{
-width:80%;
-}
-
-.sideMenu{
-  color:white;
-  text-align: center;
-  background-color: #006666;
-  border-radius: 0.5em;
-  padding: 1em;
-  width: 20%;
-
 }
