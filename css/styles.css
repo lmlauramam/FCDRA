@@ -46,18 +46,10 @@ p{
 }
 
 th{
-  color: #660000; /* 20% red*/
   font-weight: bold;
-  font-size: 2em;
   border-bottom-style: dotted;
-  border-color: grey;
-  padding-left: 2em ;
-  padding-right: 2em;
 }
 td{
-  font-size: 1.5em;
-  padding-left: 2em ;
-  padding-right: 2em;
 }
 
 textarea{
@@ -90,13 +82,6 @@ a:active {
   color: #C74A4A;
 }
 
-.MinhasTurmas{
-  background-color: #D98995;
-  color:white;
-  display:inline-block;
-  border-radius: 0.5em;
-  padding: 0.8em 0.8em 0.8em 0.8em;
-}
 
 .buttonAprendizagens {
   background-color: #580000; /* Dark Red*/
@@ -122,4 +107,24 @@ a:active {
   font-size: 0.5 em;
   margin: 4px 2px;
   cursor: pointer;
+}
+
+.blueButton {
+  background-color:#6D9BC3;
+  border-radius: 0.5em;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.5 em;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+
+
+.MenuTurmas{
+  color: white;
+  font-weight: bold;
 }

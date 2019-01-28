@@ -3,45 +3,43 @@
   <head>
     <meta charset="utf-8">
     <title>FCDRA</title>
+    <!--Import Google Icon Font-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!--Import materialize.css-->
+     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+     <!--Let browser know website is optimized for mobile-->
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
-
-    <h3> 5C - Matemática</h3>
-    <form action="/action_page.php">
-    <table>
-      <tr>
-        <th>
-        Alunos
-        </th>
-        <th>
-          Aprendizans adquiridas
-        </th>
-      </tr>
-      <tr>
-        <td>
-          Ana Barros
-        </td>
-        <td>
-          <input type="checkbox" name="Aprendizagem1" value="Aprendizagem1"> Apredendizagem 1<br>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          Hugo Martins
-        </td>
-        <td>
-          <input type="checkbox" name="Aprendizagem2" value="Aprendizagem2"> Apredendizagem 2<br>
-        </td>
-      </tr>
-
-    </table>
-    <br/>
-
-    </br/>
-
-    <input class="buttonAprendizagens" type="submit" value="Adicionar Aprendizagens">
-    </form>
-
+        <table>
+          <tr>
+            <th> Unidade Curricular</th>
+            <th> Aprendizagens Chave</th>
+            <th> Alunos c/ Aprendizagens <br/> Chave Atingida?</th>
+            <th> Áreas de Competência </th>
+            <th> Última Actualização </th>
+            <th> </th>
+          </tr>
+          <tr>
+            <td>Matemática</td>
+            <td>Reconhecer números inteiros nas suas diferentes repersentações</td>
+            <td>Sim</td>
+            <td>A</td>
+            <td>27/01/2018</td>
+            <td> <a href="atribuirAprendizagens.html" class="blueButton"> Actualizar  Aprendizagens </a> </td>
+          </tr>
+          <tr>
+            <td>Matemática</td>
+            <td>Comparar números inteiros e racionais nas suas diferentes representacões</td>
+            <td>Não</td>
+            <td>B</td>
+            <td></td>
+            <td> <a href="atribuirAprendizagens.html" class="blueButton"> Actualizar  Aprendizagens </a> </td>
+          </tr>
+        </table>
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
   </body>
 </html>
