@@ -60,26 +60,26 @@ textarea{
 
 a{
   text-decoration: none;
-  color:#C74A4A;
+  color:white;
 }
 /* unvisited link */
 a:link {
-  color: #C74A4A;
+  color: white;
 }
 
 /* visited link */
 a:visited {
-  color: #C74A4A;
+  color: white;
 }
 
 /* mouse over link */
 a:hover {
-  color: #D98995;
+  color:white;
 }
 
 /* selected link */
 a:active {
-  color: #C74A4A;
+  color: white;
 }
 
 
@@ -109,8 +109,8 @@ a:active {
   cursor: pointer;
 }
 
-.blueButton {
-  background-color:#6D9BC3;
+.tealButton {
+  background-color: #008080;
   border-radius: 0.5em;
   border: none;
   color: white;
