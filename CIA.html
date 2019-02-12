@@ -1,0 +1,101 @@
+<html>
+   <head>
+      <title>FCDRA</title>
+      <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+      <link rel = "stylesheet"
+         href = "https://fonts.googleapis.com/icon?family=Material+Icons">
+      <link rel = "stylesheet"
+         href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+      <link rel="stylesheet" href="./css/styles.css">
+      <script type = "text/javascript"
+         src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js">
+      </script>
+
+      <script>
+         $(document).ready(function() {
+            $('select').material_select();
+         });
+      </script>
+   </head>
+    <!--Menu-->
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">FCDRA</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="home.html">As Minhas Turmas</a></li>
+          <li><a href=""> Placeholder 1</a></li>
+          <li><a href="collapsible.html">Placeholder 2</a></li>
+        </ul>
+      </div>
+    </nav>
+    <br/>
+    <h3> Cenários Integradores de Aprendizagem </h3>
+
+    <p> Disciplinas Nucleares</p>
+    <div class = "row">
+      <div class="input-field col s12 m4">
+        <label></label>
+        <select multiple>
+            <option value = "" disabled selected></option>
+            <option value = "1">Ciências</option>
+            <option value = "2">Matemática</option>
+            <option value = "3">Português</option>
+        </select>
+      </div>
+      <div class="input-field col s12 m4">
+        <label></label>
+        <select multiple>
+            <option value = "" disabled selected></option>
+            <option value = "1">Interpretação do Texto</option>
+            <option value = "2">Trabalho de Investigação</option>
+            <option value = "3">Relatório</option>
+        </select>
+       </div>
+    </div>
+
+    <br/> <br/>
+
+    <p> Disciplinas Complementares</p>
+    <div class = "row">
+      <div class="input-field col s12 m4">
+        <label></label>
+        <select multiple>
+            <option value = "" disabled selected></option>
+            <option value = "1">História</option>
+            <option value = "2">EMRC</option>
+            <option value = "3">Inglês</option>
+        </select>
+      </div>
+      <div class="input-field col s12 m4">
+        <label></label>
+        <select multiple>
+            <option value = "" disabled selected></option>
+            <option value = "1">Interpretação do Texto</option>
+            <option value = "2">Preenchimento do Friso Cronológico</option>
+            <option value = "3">Apresentação Oral</option>
+        </select>
+       </div>
+    </div>
+
+    <br/> <br/>
+
+
+
+    <p> Resumo </p>
+    <i class="material-icons prefix">mode_edit</i>
+    <textarea id="Resumo" class="materialize-textarea"></textarea>
+    <label for="Resumo">Adicionar breve Resumo</label>
+
+    <br/> <br/> <br/>
+    <p> Guião </p>
+    <i class="material-icons prefix">mode_edit</i>
+    <textarea id="Guiao" class="materialize-textarea"></textarea>
+    <label for="Guiao">Adicionar detalhes do Guião</label>
+
+    <br/><br/>
+
+    <a href="todo.html" class="tealButtonDarker4 "> Guardar</a>
+
+  </body>
+</html>

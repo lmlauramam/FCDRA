@@ -51,6 +51,22 @@ th{
 }
 td{
 }
+td a {
+  color:#88453e;;
+}
+td a:link {
+  color: #88453e;
+}
+
+td a:visited {
+  color: #88453e;
+}
+
+td a:hover {
+  color:#e51c23;
+}
+
+
 
 textarea{
   border-radius: 0.5em;
@@ -111,6 +127,20 @@ a:active {
 
 .tealButton {
   background-color: #008080;
+  border-radius: 0.5em;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.5 em;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+
+.tealButtonDarker4 {
+  background-color: #004d40;
   border-radius: 0.5em;
   border: none;
   color: white;
