@@ -17,6 +17,7 @@ hr{
   width: 5%;
 }
 
+
 h1{
   color: #B7160C;
   font-size: 5em;
@@ -129,6 +130,19 @@ a:active {
   cursor: pointer;
 }
 
+#LoginDots{
+  border-color: #ff8f00; /* amber darken-3*/
+  border-width: 10px;
+}
+
+#FCDRALogin{
+  color:#e65100; /*  orange darken-4 */
+}
+
+#Login{
+  color:#004d40;
+}
+
 .tealButton {
   background-color: #008080;
   border-radius: 0.5em;
@@ -165,4 +179,8 @@ a:active {
 .MenuTurmas{
   color: white;
   font-weight: bold;
+}
+
+#TurmaTag {
+  color: #004d40;
 }
