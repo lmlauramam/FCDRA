@@ -5,6 +5,10 @@ body{
 
 }
 
+.whitecolour{
+  color: white:
+}
+
 hr{
   border-style: none;
   border-top-style:dotted;
@@ -151,6 +155,10 @@ a:active {
   margin: 4px 2px;
   cursor: pointer;
 
+}
+
+#AprendizagemButton{
+  color:white;
 }
 
 
