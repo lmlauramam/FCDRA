@@ -34,21 +34,21 @@
     </nav>
     <br/><br/><br/>
     <h3> Cenários Integradores de Aprendizagem </h3>
-
     <p> Disciplinas Nucleares</p>
-    <div class = "row">
-      <div class="input-field col s12 m4">
-        <label></label>
-        <select>
+    <div class="DisciplinasNucleares">
+      <div class = "row">
+        <div class="input-field col s12 m4">
+          <label></label>
+          <select>
             <option value = "" disabled selected></option>
             <option value = "1">Ciências</option>
             <option value = "2">Matemática</option>
             <option value = "3">Português</option>
-        </select>
-      </div>
-      <div class="input-field col s12 m4">
-        <label></label>
-        <select multiple>
+          </select>
+        </div>
+        <div class="input-field col s12 m4">
+          <label></label>
+          <select multiple>
             <option value = "" disabled selected></option>
             <option value = "1">Aprendizagemaem 1</option>
             <option value = "2">Aprendizagem 2</option>
@@ -56,13 +56,19 @@
         </select>
        </div>
     </div>
+   </div>
+   <div id="addDisciplinasNucleares">
 
-    <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a> <!-- Add Button -->
+   </div>
+
+
+    <a class="addDisciplinaNuclear btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a> <!-- Add Button -->
+
 
     <br/> <br/>
 
     <p> Disciplinas Complementares</p>
-    <div class = "row">
+    <div class = "row DisciplinasNucleares">
       <div class="input-field col s12 m4">
         <label></label>
         <select>
@@ -109,6 +115,7 @@
 
     <br/><br/>
 
-
+    !--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/CIA.js"></script>
   </body>
 </html>
