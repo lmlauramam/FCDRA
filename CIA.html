@@ -29,7 +29,7 @@
         </ul>
       </div>
       <div class="nav-wrapper">
-            <a href="turma.html"> <h5 id="TurmaTag" class="right-align">5C <br/> Matemática  </h5></a>
+            <a href="turma.html" onclick="addDisciplinaNuclear()"> <h5 id="TurmaTag" class="right-align">5C <br/> Matemática  </h5></a>
       </div>
     </nav>
     <br/><br/><br/>
@@ -39,11 +39,8 @@
       <div class = "row">
         <div class="input-field col s12 m4">
           <label></label>
-          <select>
+          <select id="NuclearesDD">
             <option value = "" disabled selected></option>
-            <option value = "1">Ciências</option>
-            <option value = "2">Matemática</option>
-            <option value = "3">Português</option>
           </select>
         </div>
         <div class="input-field col s12 m4">
@@ -62,7 +59,7 @@
    </div>
 
 
-    <a class="addDisciplinaNuclear btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a> <!-- Add Button -->
+    <a id="NuclearesButton" class="addDisciplinaNuclear btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a> <!-- Add Button -->
 
 
     <br/> <br/>
@@ -71,11 +68,8 @@
     <div class = "row DisciplinasNucleares">
       <div class="input-field col s12 m4">
         <label></label>
-        <select>
+        <select >
             <option value = "" disabled selected></option>
-            <option value = "1">Ciências</option>
-            <option value = "2">Matemática</option>
-            <option value = "3">Português</option>
         </select>
       </div>
       <div class="input-field col s12 m4">
