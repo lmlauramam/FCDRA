@@ -34,82 +34,191 @@
     </nav>
     <br/><br/><br/>
     <h3> Cenários Integradores de Aprendizagem </h3>
-    <p> Disciplinas Nucleares</p>
-    <div class="DisciplinasNucleares">
+
+    <div class="input-field">
+      <i class="material-icons prefix">mode_edit</i>
+      <input id="Resumo" type="text">
+      <label for="Resumo">Resumo</label>
+      <br/><br/>
+    </div>
+
+    <div class="DisciplinasAprendizagens1 input-field">
       <div class = "row">
         <div class="input-field col s12 m4">
-          <label></label>
-          <select id="NuclearesDD">
-            <option value = "" disabled selected></option>
+          <select id="DisciplinasDD">
+            <optgroup label="Disciplinas Nucleares">
+                <option value = "0" disabled selected></option>
+                <option value= "1"> Matemática</option>
+                <option value= "2"> Português</option>
+                <option value= "3"> Ciências</option>
+            </optgroup>
+            <optgroup label="Disciplinas Complementares">
+                <option value = "0" disabled selected></option>
+                <option value= "1"> História</option>
+                <option value= "2"> Inglês</option>
+                <option value= "3"> Educação Física</option>
+            </optgroup>
           </select>
+          <label for="DisciplinasDD">Disciplinas</label>
         </div>
         <div class="input-field col s12 m4">
           <label></label>
-          <select multiple>
-            <option value = "" disabled selected></option>
-            <option value = "1">Aprendizagemaem 1</option>
+          <select id="AprendizagensDD" multiple>
+            <option value = "0" disabled selected></option>
+            <option value = "1">Aprendizagem 1</option>
             <option value = "2">Aprendizagem 2</option>
             <option value = "3">Aprendizagem 3</option>
         </select>
+        <label for="AprendizagensDD">Aprendizagens</label>
        </div>
     </div>
    </div>
-   <div id="addDisciplinasNucleares">
 
+   <div class="DisciplinasAprendizagens2 input-field">
+     <div class = "row">
+       <div class="input-field col s12 m4">
+         <select id="DisciplinasDD">
+           <optgroup label="Disciplinas Nucleares">
+               <option value = "0" disabled selected></option>
+               <option value= "1"> Matemática</option>
+               <option value= "2"> Português</option>
+               <option value= "3"> Ciências</option>
+           </optgroup>
+           <optgroup label="Disciplinas Complementares">
+               <option value = "0" disabled selected></option>
+               <option value= "1"> História</option>
+               <option value= "2"> Inglês</option>
+               <option value= "3"> Educação Física</option>
+           </optgroup>
+         </select>
+         <label for="DisciplinasDD">Disciplinas</label>
+       </div>
+       <div class="input-field col s12 m4">
+         <label></label>
+         <select id="AprendizagensDD" multiple>
+           <option value = "0" disabled selected></option>
+           <option value = "1">Aprendizagem 1</option>
+           <option value = "2">Aprendizagem 2</option>
+           <option value = "3">Aprendizagem 3</option>
+       </select>
+       <label for="AprendizagensDD">Aprendizagens</label>
+      </div>
    </div>
+  </div>
 
-
-    <a id="NuclearesButton" class="addDisciplinaNuclear btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a> <!-- Add Button -->
-
-
-    <br/> <br/>
-
-    <p> Disciplinas Complementares</p>
-    <div class = "row DisciplinasNucleares">
+  <div class="DisciplinasAprendizagens3 input-field">
+    <div class = "row">
       <div class="input-field col s12 m4">
-        <label></label>
-        <select >
-            <option value = "" disabled selected></option>
+        <select id="DisciplinasDD">
+          <optgroup label="Disciplinas Nucleares">
+              <option value = "0" disabled selected></option>
+              <option value= "1"> Matemática</option>
+              <option value= "2"> Português</option>
+              <option value= "3"> Ciências</option>
+          </optgroup>
+          <optgroup label="Disciplinas Complementares">
+              <option value = "0" disabled selected></option>
+              <option value= "1"> História</option>
+              <option value= "2"> Inglês</option>
+              <option value= "3"> Educação Física</option>
+          </optgroup>
         </select>
+        <label for="DisciplinasDD">Disciplinas</label>
       </div>
       <div class="input-field col s12 m4">
         <label></label>
-        <select multiple>
-            <option value = "" disabled selected></option>
-            <option value = "1">Aprendizagemaem 1</option>
-            <option value = "2">Aprendizagem 2</option>
-            <option value = "3">Aprendizagem 3</option>
-        </select>
-       </div>
+        <select id="AprendizagensDD" multiple>
+          <option value = "0" disabled selected></option>
+          <option value = "1">Aprendizagem 1</option>
+          <option value = "2">Aprendizagem 2</option>
+          <option value = "3">Aprendizagem 3</option>
+      </select>
+      <label for="AprendizagensDD">Aprendizagens</label>
+     </div>
+  </div>
+ </div>
+
+ <div class="DisciplinasAprendizagens4 input-field">
+   <div class = "row">
+     <div class="input-field col s12 m4">
+       <select id="DisciplinasDD">
+         <optgroup label="Disciplinas Nucleares">
+             <option value = "0" disabled selected></option>
+             <option value= "1"> Matemática</option>
+             <option value= "2"> Português</option>
+             <option value= "3"> Ciências</option>
+         </optgroup>
+         <optgroup label="Disciplinas Complementares">
+             <option value = "0" disabled selected></option>
+             <option value= "1"> História</option>
+             <option value= "2"> Inglês</option>
+             <option value= "3"> Educação Física</option>
+         </optgroup>
+       </select>
+       <label for="DisciplinasDD">Disciplinas</label>
+     </div>
+     <div class="input-field col s12 m4">
+       <label></label>
+       <select id="AprendizagensDD" multiple>
+         <option value = "0" disabled selected></option>
+         <option value = "1">Aprendizagem 1</option>
+         <option value = "2">Aprendizagem 2</option>
+         <option value = "3">Aprendizagem 3</option>
+     </select>
+     <label for="AprendizagensDD">Aprendizagens</label>
+    </div>
+ </div>
+</div>
+
+<div class="DisciplinasAprendizagens5 input-field">
+  <div class = "row">
+    <div class="input-field col s12 m4">
+      <select id="DisciplinasDD">
+        <optgroup label="Disciplinas Nucleares">
+            <option value = "0" disabled selected></option>
+            <option value= "1"> Matemática</option>
+            <option value= "2"> Português</option>
+            <option value= "3"> Ciências</option>
+        </optgroup>
+        <optgroup label="Disciplinas Complementares">
+            <option value = "0" disabled selected></option>
+            <option value= "1"> História</option>
+            <option value= "2"> Inglês</option>
+            <option value= "3"> Educação Física</option>
+        </optgroup>
+      </select>
+      <label for="DisciplinasDD">Disciplinas</label>
+    </div>
+    <div class="input-field col s12 m4">
+      <label></label>
+      <select id="AprendizagensDD" multiple>
+        <option value = "0" disabled selected></option>
+        <option value = "1">Aprendizagem 1</option>
+        <option value = "2">Aprendizagem 2</option>
+        <option value = "3">Aprendizagem 3</option>
+    </select>
+    <label for="AprendizagensDD">Aprendizagens</label>
+   </div>
+</div>
+</div>
+
+    <br/>
+    <div class="input-field">
+      <i class="material-icons prefix">mode_edit</i>
+      <textarea id="Guiao" class="materialize-textarea"></textarea>
+      <label for="Guiao">Guião</label>
     </div>
 
-    <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a> <!-- Add Button -->
-
-
-    <br/> <br/>
-
-
-
-    <p> Resumo </p>
-    <i class="material-icons prefix">mode_edit</i>
-    <textarea id="Resumo" class="materialize-textarea"></textarea>
-    <label for="Resumo">Adicionar breve Resumo</label>
-
-    <br/> <br/> <br/>
-    <p> Guião </p>
-    <i class="material-icons prefix">mode_edit</i>
-    <textarea id="Guiao" class="materialize-textarea"></textarea>
-    <label for="Guiao">Adicionar detalhes do Guião</label>
+    <div class="input-field">
+      <br/>
+      <button class="btn waves-effect waves-light" type="submit" name="action">Guardar
+        <i class="material-icons right">send</i>
+      </button>
+    </div>
 
     <br/><br/>
 
-    <button class="btn waves-effect waves-light" type="submit" name="action">Guardar
-    <i class="material-icons right">send</i>
-    </button>
-
-    <br/><br/>
-
-    !--JavaScript at end of body for optimized loading-->
+    <!--JavaScript at end of body for optimized loading-->
     <script type="text/javascript" src="js/CIA.js"></script>
   </body>
 </html>
