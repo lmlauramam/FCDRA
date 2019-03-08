@@ -45,7 +45,7 @@
     <div class="DisciplinasAprendizagens1 input-field">
       <div class = "row">
         <div class="input-field col s12 m4">
-          <select id="DisciplinasDD">
+          <select id="DisciplinasDD" onchange="showlAllAprendizagens()">
             <optgroup label="Disciplinas Nucleares">
                 <option value = "0" disabled selected></option>
                 <option value= "1"> Matemática</option>
@@ -61,9 +61,9 @@
           </select>
           <label for="DisciplinasDD">Disciplinas</label>
         </div>
-        <div class="input-field col s12 m4">
+        <div id="AprendizagensDD" class="input-field col s12 m4">
           <label></label>
-          <select id="AprendizagensDD" disabled multiple>
+          <select  multiple>
             <option value = "0" disabled selected></option>
             <option value = "1">Aprendizagem 1</option>
             <option value = "2">Aprendizagem 2</option>
@@ -80,10 +80,10 @@
     </div>
    </div>
 
-   <div class="DisciplinasAprendizagens2 input-field">
+   <div id="DisciplinasAprendizagens2" class="input-field">
      <div class = "row">
        <div class="input-field col s12 m4">
-         <select id="DisciplinasDD">
+         <select id="DisciplinasDD2" onchange="showlAllAprendizagens()">
            <optgroup label="Disciplinas Nucleares">
                <option value = "0" disabled selected></option>
                <option value= "1"> Matemática</option>
@@ -99,9 +99,9 @@
          </select>
          <label for="DisciplinasDD">Disciplinas</label>
        </div>
-       <div class="input-field col s12 m4">
+       <div id="AprendizagensDD2" class="input-field col s12 m4">
          <label></label>
-         <select id="AprendizagensDD" disabled multiple>
+         <select  multiple>
            <option value = "0" disabled selected></option>
            <option value = "1">Aprendizagem 1</option>
            <option value = "2">Aprendizagem 2</option>
@@ -118,113 +118,6 @@
    </div>
   </div>
 
-  <div class="DisciplinasAprendizagens3 input-field">
-    <div class = "row">
-      <div class="input-field col s12 m4">
-        <select id="DisciplinasDD">
-          <optgroup label="Disciplinas Nucleares">
-              <option value = "0" disabled selected></option>
-              <option value= "1"> Matemática</option>
-              <option value= "2"> Português</option>
-              <option value= "3"> Ciências</option>
-          </optgroup>
-          <optgroup label="Disciplinas Complementares">
-              <option value = "0" disabled selected></option>
-              <option value= "1"> História</option>
-              <option value= "2"> Inglês</option>
-              <option value= "3"> Educação Física</option>
-          </optgroup>
-        </select>
-        <label for="DisciplinasDD">Disciplinas</label>
-      </div>
-      <div class="input-field col s12 m4">
-        <label></label>
-        <select id="AprendizagensDD" disabled multiple>
-          <option value = "0" disabled selected></option>
-          <option value = "1">Aprendizagem 1</option>
-          <option value = "2">Aprendizagem 2</option>
-          <option value = "3">Aprendizagem 3</option>
-      </select>
-      <label for="AprendizagensDD">Aprendizagens</label>
-     </div>
-  </div>
-  <div class="buttonDisciplinasAprendizagens3 right-align">
-    <button class="btn waves-effect waves-light" type="submit" name="action"> Outra Disciplina
-      <i class="material-icons">add_to_queue</i>
-    </button>
-    <br/>
-  </div>
- </div>
-
- <div class="DisciplinasAprendizagens4 input-field">
-   <div class = "row">
-     <div class="input-field col s12 m4">
-       <select id="DisciplinasDD">
-         <optgroup label="Disciplinas Nucleares">
-             <option value = "0" disabled selected></option>
-             <option value= "1"> Matemática</option>
-             <option value= "2"> Português</option>
-             <option value= "3"> Ciências</option>
-         </optgroup>
-         <optgroup label="Disciplinas Complementares">
-             <option value = "0" disabled selected></option>
-             <option value= "1"> História</option>
-             <option value= "2"> Inglês</option>
-             <option value= "3"> Educação Física</option>
-         </optgroup>
-       </select>
-       <label for="DisciplinasDD">Disciplinas</label>
-     </div>
-     <div class="input-field col s12 m4">
-       <label></label>
-       <select id="AprendizagensDD" disabled multiple>
-         <option value = "0" disabled selected></option>
-         <option value = "1">Aprendizagem 1</option>
-         <option value = "2">Aprendizagem 2</option>
-         <option value = "3">Aprendizagem 3</option>
-     </select>
-     <label for="AprendizagensDD">Aprendizagens</label>
-    </div>
- </div>
- <div class="buttonDisciplinasAprendizagens4 right-align">
-   <button class="btn waves-effect waves-light" type="submit" name="action"> Outra Disciplina
-     <i class="material-icons">add_to_queue</i>
-   </button>
-   <br/>
- </div>
-</div>
-
-<div class="DisciplinasAprendizagens5 input-field">
-  <div class = "row">
-    <div class="input-field col s12 m4">
-      <select id="DisciplinasDD">
-        <optgroup label="Disciplinas Nucleares">
-            <option value = "0" disabled selected></option>
-            <option value= "1"> Matemática</option>
-            <option value= "2"> Português</option>
-            <option value= "3"> Ciências</option>
-        </optgroup>
-        <optgroup label="Disciplinas Complementares">
-            <option value = "0" disabled selected></option>
-            <option value= "1"> História</option>
-            <option value= "2"> Inglês</option>
-            <option value= "3"> Educação Física</option>
-        </optgroup>
-      </select>
-      <label for="DisciplinasDD">Disciplinas</label>
-    </div>
-    <div class="input-field col s12 m4">
-      <label></label>
-      <select id="AprendizagensDD" disabled multiple>
-        <option value = "0" disabled selected></option>
-        <option value = "1">Aprendizagem 1</option>
-        <option value = "2">Aprendizagem 2</option>
-        <option value = "3">Aprendizagem 3</option>
-    </select>
-    <label for="AprendizagensDD">Aprendizagens</label>
-   </div>
- </div>
-</div>
 
     <br/>
     <div class="input-field">
